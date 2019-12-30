@@ -1,0 +1,186 @@
+html,body{
+    scroll-padding-top: 50px};
+}
+html{
+    padding-top: 0;
+}
+
+body{
+    margin: 0;
+}
+.lista{
+    color: green;
+}
+#uniq{
+    color: white;
+}
+nav{
+    padding-top: 10px;
+    background-color:black;
+    height: 50px;
+    position: fixed;
+    width: 100%;}
+li{
+    display: inline;
+    margin: 3rem;
+    vertical-align: middle;
+    }
+p{
+    display: inline;
+}
+ul{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+ul a{
+    color:white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;}
+
+    
+#hero{background-image: url("img/bg-hero.png");
+height: 400px;
+background-size: cover;}
+
+#hero h1{
+    margin: 0;
+    color: white;
+    font-size: 3.75em;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 800;
+    text-shadow: 4px 4px 2px #000;
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 1em;
+    letter-spacing: -1pt;
+}
+#hero p{
+    display: inline;
+    color: white;
+    margin-left: 20em;
+    font-size: 2em;
+    font-family: calibri;
+    text-shadow: 2px 3px 3px #000;
+}
+#contact{background-color: white;
+text-align: center;
+padding-top: 20px;
+vertical-align: middle;
+margin-bottom: 30px;
+}
+
+#contact h2{
+    font-size: 2.5em;
+    font-family: 'Open Sans',sans-serif;
+}
+#contact p{
+    font-size: 1em;
+    font-family: 'Open Sans',sans-serif;
+    color: grey;
+}
+
+#next {
+    background-color:#a4452c;
+    text-align: center;
+    height: 230px;
+    padding-top: 40px;
+    vertical-align: middle;
+}
+
+.next-text{
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    margin-left: 1em;
+}
+
+.next-text h2,h3,h4,h5,p{
+    margin: 0;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.next-text h2{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.next-text h3 {
+    font-size: 2em;
+}
+
+.next-text h4 {
+    font-size: 1.75em;
+}
+
+.next-text p {
+    font-size: 1em;
+    display: inline-block;
+}
+
+#past_events{text-align: center;
+    height: 300px;
+    vertical-align: middle;
+    font-family: 'Open Sans',sans-serif;}
+
+#past_events h2{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.event{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+#past_events h3{
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    height: 200px;
+}
+
+footer i{
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    margin-top: 0.5em;
+}
+
+footer h3{
+    margin-top: 1em;
+    font-weight: lighter;
+}
+
+.simposium{
+    display: inline-block;
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 10%;
+    color: black;
+}
+.simposium h1{
+font-size: 25px;
+text-align: left;
+
+}
+
+.simposium img{
+    min-width: 100%;
+}
+.simposium p{
+    color: black;
+    font-size: 12px;
+    width: 100%;
+    text-align: justify;
+    padding-top: 10;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
